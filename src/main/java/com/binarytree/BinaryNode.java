@@ -1,4 +1,5 @@
 package com.binarytree;
+
 public class BinaryNode<K extends Comparable<K>> {
     public K key;
     public BinaryNode<K> left;
