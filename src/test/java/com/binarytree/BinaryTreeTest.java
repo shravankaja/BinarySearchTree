@@ -22,5 +22,6 @@ public class BinaryTreeTest {
         binarySearchTree.addNodeRecursiveFashion(67);
         int size = binarySearchTree.size();
         Assertions.assertEquals(13, size);
+        binarySearchTree.searchTree(67);
     }
 }
